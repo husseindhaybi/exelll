@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/allstudents')
+fetch('https://exell.onrender.com/allstudents')
       .then(response => response.json())
       .then(json => {
         let ul =document.getElementById('students')
